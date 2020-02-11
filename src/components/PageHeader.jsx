@@ -4,9 +4,9 @@ import '../styles/PageHeader.css';
     const PageHeader = () => {
     return (
     <div className="PageHeader">
-    <header>
-    <h1>SF Public Spaces</h1>
-    </header>
+        <header>
+        <h1>SF Public Spaces</h1>
+        </header>
     </div>
     )
     }
