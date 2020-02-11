@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Project = () => {
- return (
- <div>
-    <img src="" width="300" height="200" />
-    <h3>Title of Project</h3>
-    <a href="button.com">Link to project</a>
- </div>
- )
-}
+const Project = ({ image, title, link }) => {
+    return (
+    <div>
+    <img src={image} width="300" height="200" />
+    <h3>{title}</h3>
+    <a href={link}>Link to project</a>
+    </div>
+    )
+   }
 
 export default Project
