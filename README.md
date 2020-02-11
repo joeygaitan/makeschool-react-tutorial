@@ -1,5 +1,4 @@
-## Created React app
-
+## Make School React tutorial
 ### How to run locally
 
 ```
